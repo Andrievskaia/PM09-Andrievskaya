@@ -1,0 +1,38 @@
+.Contacts {
+    width: 100%;
+    height: auto;
+    background-color: #532f16;
+    color: #ffffff;
+}
+.Contacts h1 {
+    font-size: 3vw;
+    text-align: center;
+    padding: 30px;
+    font-family: "Bold"; 
+    margin: 0;
+}
+
+
+.Contacts-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 10px;
+}
+
+.Contacts-address h1 {
+    font-size: 1.8vw;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Thin"; 
+    margin: 0;   
+}
+
+.Contacts-address h2 {
+    font-size: 1vw;
+    text-align: center;
+    padding: 60px;
+    padding-top: 5%;
+    font-family: "ThinItalic";
+    margin: 0;
+}

@@ -1,0 +1,38 @@
+.Menu{
+    background-color: antiquewhite;
+}
+
+.Menu h1 {
+    font-size: 3vw;
+    text-align: center;
+    color: #000000;
+    padding-top: 60px;
+    font-family: "Bold";    
+}
+.Menu-container ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    background-color: antiquewhite;
+}
+
+.Menu-container h2 {
+    font-size: 1.8vw;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+    font-family: "Thin";    
+}
+
+.Menu-container li{
+    width: 200px;
+    height: 100%;
+    list-style: none;
+    line-height: 100px;
+
+}
+
+.Menu-container li:hover{
+    background-color: #532f16;
+    color: #ffffff;
+}

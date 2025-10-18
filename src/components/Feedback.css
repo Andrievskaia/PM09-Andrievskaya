@@ -1,0 +1,32 @@
+.Feedback h1 {
+    font-size: 3vw;
+    text-align: center;
+    color: #000000;
+    padding-top: 60px;
+    font-family: "Bold";    
+}
+
+
+.Feedback-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 30px;
+}
+
+.Feedback-text h1 {
+    font-size: 1.8vw;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+    font-family: "Thin";    
+}
+
+.Feedback-text h2 {
+    font-size: 1vw;
+    text-align: justify;
+    color: #000000;
+    padding: 60px;
+    padding-top: 5%;
+    font-family: "ThinItalic";
+}

@@ -1,0 +1,13 @@
+.BookTable {
+    width: 100%;
+    min-height: calc(100vh - 50px - 50px);
+    background-color: #fff;
+}
+
+.BookTable h1 {
+    font-size: 3vw;
+    text-align: center;
+    color: #000000;
+    padding-top: 30px;
+    font-family: "Bold";    
+}

@@ -1,0 +1,5 @@
+.Busket {
+    width: 100%;
+    height: calc(100vh - 50px - 50px);
+    background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,84 @@
+.Blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding: 30px;
+}
+
+.Blog-img img{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.Blog h1 {
+    font-size: 3vw;
+    text-align: center;
+    color: #000000;
+    padding-top: 30px;
+    font-family: "Bold";    
+}
+
+.Blog-text h2 {
+    font-size: 1.8vw;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+    font-family: "Thin";    
+}
+
+.Blog-text h3 {
+    font-size: 1vw;
+    text-align: justify;
+    color: #000000;
+    padding: 60px;
+    padding-top: 5%;
+    font-family: "ThinItalic";
+}
+
+.Form h2{
+    font-size: 1.8vw;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+    font-family: "Thin"; 
+}
+
+.Form-container h1{
+    font-size: 3vw;
+    text-align: center;
+    color: #000000;
+    padding-top: 30px;
+    font-family: "Bold";  
+}
+
+.Form input{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35%; 
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 30%;
+    height: 10%;
+    box-sizing: border-box;
+}
+
+.button button {
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    font-family: "ThinItalic";
+}
+.button button:hover {
+    background-color: #532f16;
+    color: #ffffff;
+}
